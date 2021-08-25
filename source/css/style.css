@@ -1,52 +1,60 @@
-body{
+body {
     font-family: Arial, sans-serif;
 }
-nav{
-    width: 100%; 
+
+nav {
+    width: 100%;
     height: 60px;
     background: #344051;
 }
-.logo{
-    color:white;
+
+.logo {
+    color: white;
     font-size: 28px;
     line-height: 60px;
     padding-left: 388px;
     float: left;
 }
-.menu{
-    float:left; 
+
+.menu {
+    float: left;
     padding-left: 432px;
 }
-.menu li{
-    float:left;
+
+.menu li {
+    float: left;
     line-height: 60px;
     color: white;
     margin-right: 40px;
     font-size: 16;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
-.main{
+
+.main {
     width: 100%;
-    height: calc(100% - 60px); 
-    background: url(../img/boy.png) 90% 100%/auto 85% no-repeat ,url(../img/bg.jpg) center/cover no-repeat; 
+    height: calc(100% - 60px);
+    background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
 }
-.title__container{
+
+.title__container {
     float: left;
     margin: 432px 0px 0px 404px;
     color: #2c384a;
     text-align: center;
 }
-    
-.title__container h1{
+
+.title__container h1 {
     font-size: 60px;
     font-weight: bold;
 }
-.title__container h4{
+
+.title__container h4 {
     margin-top: 40px;
     font-size: 22px;
-    color: 79818d   
+    color: 79818d
 }
-.title__container input{
+
+.title__container input {
     height: 40px;
     text-align: center;
     border: 2px solid #6d7682;
@@ -57,59 +65,71 @@ nav{
     padding: 0px 16px;
     margin: 58px 14px 0px 14 px;
 }
-.logo2{
+
+.logo2 {
     font-size: 22px;
     margin: 107px 0px 0px 897px;
     text-transform: uppercase;
     text-decoration: underline;
     color: #263244;
+    
 }
-.main2{
-    height:203px;
-    background: url(../img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0.jpg) center no-repeat ;
+
+.main2 {
+    height: 203px;
+    background: url(../img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0.jpg) center no-repeat;
+    display: block;
+    margin-top: 58px;    
 }
-.title__container2{
+
+.title__container2 {
     float: center;
-    padding: 322px 592px;
+    padding: 230px 592px;
     color: #3f495a;
 }
-.title__container2 p{
+
+.title__container2 p {
     margin-top: 44px;
-}    
-.title__container2 input{
-    height: 30px;
     
+}
+
+.title__container2 input {
+    height: 30px;
     text-align: center;
-    border: 2px  solid #6f707e;
+    border: 2px solid #6f707e;
     background: none;
     border-radius: 5px;
     color: #6f707e;
     font-size: 14px;
     padding: 0px 16px;
     margin: 42px 280px
-
 }
-.preview{
-    font-size:26px;
+.destroy{
+    height: 521px;
+    width: 100%;
+    background: url(../img/kt.jpg);
+    float: left;
+    margin-top: 290px;
+}
+.preview {
+    font-size: 26px;
     text-decoration: underline;
-    margin-top: 400px;
-    
-    color:#263244;
+    margin:110px 867px;
+    color: #263244;
     text-decoration-color: yellow;
+    float: left;
 }
 .main3 {
-   width: 100%;
-     background: url(../img/kt.jpg);
-}
-
-.title__conteiner3 li{
-    width: 100%
-    font-size: 17px;
+    padding-left: 150px;
     float: left;
-    
+    display: flex;
 }
-    
+.title__conteiner3 p{
+    text-align: center;
+    float:left; 
+
+}
+
+ 
     
 
-   
- 
